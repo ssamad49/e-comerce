@@ -60,12 +60,13 @@
                    <span>+</span>
                </div>
                <p class="commonde">للطلب المرجو ملأ الإستمارة أسفله</p>
-               <form action="" name="formuler" id="foorm">
-                   <input type="text" placeholder="الاسم الكامل" name="full_name" id="name">
-                   <input type="text" placeholder="الهاتف" name="tel" id="phone-number">
-                   <input type="text" placeholder="المدينة" name="ville" id="ville">
-                   <input type="text" placeholder="العنوان" name="adress">
-                   <input type="submit" value="أطلب الآن" onclick="validateForm()">
+
+               <form action="#"  name="formuler" id="foorm" method="post" enctype="multipart/form-data">
+                   <input type="text" placeholder="الاسم الكامل" name="full_name" id="names" required="required">
+                   <input type="text" placeholder="الهاتف" name="tel" id="phone-number" required="required">
+                   <input type="text" placeholder="المدينة" name="ville" id="villeid" required="required">
+                   <input type="text" placeholder="العنوان" name="adress" required="required">
+                   <input class="Myclick" type="submit" value="أطلب الآن" >
                </form>
            </div>
 
@@ -82,12 +83,12 @@
         <a href="#des" onclick="clickfix()">أطلب الان</a>
     </div>
     <!-- end button fixed  -->
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
-     <script>
-    
-    
-     </script>
     <script src="javascripte/main.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+     
+    
 </body>
 </html>

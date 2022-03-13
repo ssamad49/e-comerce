@@ -235,6 +235,9 @@ ul {
   font-size: 60px;
   color: #7ec855;
   animation: bouncing 1.5s infinite;
+  background-color:white;
+  border-radius: 50%;
+  border-color:white ;
 }
 @keyframes bouncing {
   0%,
